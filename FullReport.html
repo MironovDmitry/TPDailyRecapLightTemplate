@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- <link rel="Stylesheet" type="text/css" href="DailyRecap.css" /> -->
+</head>
+<body style="font-family: Helvetica,helvetica,arial,sans-serif; font-size: 14px;">
+    <table class="Report" style="width:100%;">
+        <tr>
+            <td class="main" colspan="2">
+                <table class="DailyRecap" style="text-align: center; width:100%;"">
+                    <tr>
+                        <td>
+                            <h1>Daily Recap</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ReportDate">##ReportDate##
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="left_Margin" style="width:20px;"></td>
+            <td class="ProjectsContainer" style="width: auto;">
+                <table class="Project" border="1" style="width: 100%; table-layout: fixed;">
+                    <colgroup>
+                        <col span="1" style="width: 10px;">
+                        <col span="1" style="width: 20px;">
+                        <col span="1">
+                        <col span="1" style="width: auto;">
+                    </colgroup>
+                    <tr>
+                        <td colspan="4">##ProjectName##
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="SectionLeftMargin"></td>
+                        <td class="SectionName" colspan="3">##SectionName##
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="SectionLeftMargin"></td>
+                        <td class="EntityLeftMargin"></td>
+                        <td class="icon padded40">
+                            <img alt="EntityImage" src="http://img.aemedia.ru/tp/##EntityType##.gif">
+                        </td>
+                        <td class="EntityName">##EntityName##
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="SectionLeftMargin"></td>
+                        <td class="EntityLeftMargin"></td>
+                        <td class="ProgressAndAssigned padded40" colspan="2">##EntityDeveloperAndEffort##
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="SectionLeftMargin"></td>
+                        <td class="EntityLeftMargin"></td>
+                        <td class="EntityDescriptrion padded40" colspan="2">##EntityDescriptrion##
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

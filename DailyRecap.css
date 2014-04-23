@@ -1,0 +1,34 @@
+﻿body {
+    font-family: Helvetica,helvetica,arial,sans-serif; 
+    font-size:14px;
+    margin-left:20px;
+}
+
+table {
+    border: 1px solid black;    
+    border-collapse: collapse;
+    width:100%;
+}
+Table[class="DailyRecap"]{
+   text-align:center;
+   border-bottom:2px solid red;   
+}
+Table[class="Project"]{
+    margin-top:10px;
+}
+
+td[class="ReportDate"]{
+    padding:10px 0;
+}
+
+td[class="SectionName"]{
+    padding-left:20px;
+}
+
+td[class="icon"]{    
+    padding-right:10px;
+}
+
+.padded40{
+    padding-left:40px;
+}

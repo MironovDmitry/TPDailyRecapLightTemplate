@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE1547D9-E7CF-4B86-826D-9815822C3F6B}"
+	ProjectSection(SolutionItems) = preProject
+		DailyRecap.css = DailyRecap.css
+		EntityRecord.html = EntityRecord.html
+		FullReport.html = FullReport.html
+		Project_Footer.html = Project_Footer.html
+		Project_Header.html = Project_Header.html
+		Report_Footer.html = Report_Footer.html
+		Report_Header.html = Report_Header.html
+		Section_Footer.html = Section_Footer.html
+		Section_Header.html = Section_Header.html
+		test.html = test.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
