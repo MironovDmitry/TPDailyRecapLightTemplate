@@ -1,24 +1,40 @@
-﻿<tr>
-    <td class="SectionLeftMargin"></td>
-    <td class="EntityLeftMargin"></td>
-    <td class="icon padded40">
-        <img alt="EntityImage" src="http://img.aemedia.ru/tp/##EntityType##.gif">
+﻿<!--<tr>
+    <td class="SectionLeftMargin" width="10">&nbsp;</td>
+    <td class="EntityLeftMargin" width="20">&nbsp;</td>
+    <td class="icon padded40" width="50">
+        <img alt="EntityImage" src="http://img.aemedia.ru/tp/##EntityType##.gif" width="##ImageWidth##" height="12">
     </td>
-    <td class="EntityName" style="font-size:12pt;font-weight:bold;padding-bottom:5px;text-align:left;">
-        ##EntityName##
-    </td>
-</tr>
-<tr>
-    <td class="SectionLeftMargin"></td>
-    <td class="EntityLeftMargin"></td>
-    <td class="ProgressAndAssigned padded40" colspan="2" style="font-size:11pt;font-style:italic;padding-bottom:5px;">
-        ##EntityDeveloperAndEffort##
+    <td class="EntityName" align="left">
+        <font size="3"><b>##EntityName##</b></font> 
     </td>
 </tr>
 <tr>
-    <td class="SectionLeftMargin"></td>
-    <td class="EntityLeftMargin"></td>
-    <td class="EntityDescriptrion padded40" colspan="2" style="padding-bottom:10px;">
+    <td class="SectionLeftMargin" width="10">&nbsp;</td>
+    <td class="EntityLeftMargin" width="20">&nbsp;</td>
+    <td class="ProgressAndAssigned padded40" colspan="2">
+        <font size="2"><i>##EntityDeveloperAndEffort##</i></font>
+    </td>
+</tr>
+<tr>
+    <td class="SectionLeftMargin" width="10">&nbsp;</td>
+    <td class="EntityLeftMargin" width="20">&nbsp;</td>
+    <td class="EntityDescriptrion padded40" colspan="2">
         ##EntityDescriptrion##
     </td>
-</tr>
+</tr>-->
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td>
+                <img alt="EntityImage" src="http://img.aemedia.ru/tp/##EntityType##.gif" width="##ImageWidth##" height="12">&nbsp;<font size="3"><b>##EntityName##</b></font>
+                <br />
+                <font size="2"><i>##EntityDeveloperAndEffort##</i></font> &nbsp; <img alt="UserAvatar" src="https://targetprocess.aemedia.ru/TargetProcess2/avatar.ashx?UserId=##AssignedUserID##" width="20" height="20"><br />
+                <font size="2">##EntityDescriptrion##</font>
+            </td>
+        </tr>
+        <tr>
+            <td height="5" style="font-size: 5px; line-height: 5px;">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
