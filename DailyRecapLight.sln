@@ -6,14 +6,23 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE1547D9-E7CF-4B86-826D-9815822C3F6B}"
 	ProjectSection(SolutionItems) = preProject
 		DailyRecap.css = DailyRecap.css
+		Entity_Record_Fixed.html = Entity_Record_Fixed.html
 		EntityRecord.html = EntityRecord.html
+		Full_Fixed_Styleless.html = Full_Fixed_Styleless.html
+		Full_FixedSize.html = Full_FixedSize.html
 		FullReport.html = FullReport.html
 		Project_Footer.html = Project_Footer.html
+		Project_Footer_Fixed.html = Project_Footer_Fixed.html
 		Project_Header.html = Project_Header.html
+		Project_Header_Fixed.html = Project_Header_Fixed.html
 		Report_Footer.html = Report_Footer.html
+		Report_Footer_Fixed.html = Report_Footer_Fixed.html
 		Report_Header.html = Report_Header.html
+		Report_Header_Fixed.html = Report_Header_Fixed.html
 		Section_Footer.html = Section_Footer.html
+		Section_Footer_Fixed.html = Section_Footer_Fixed.html
 		Section_Header.html = Section_Header.html
+		Section_Header_Fixed.html = Section_Header_Fixed.html
 		test.html = test.html
 	EndProjectSection
 EndProject
