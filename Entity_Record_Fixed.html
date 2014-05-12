@@ -5,8 +5,8 @@
     <td class="EntityTypeAndName">
         <table width="570" style="border: none;border-collapse: collapse;border-spacing: 0px;padding: 0px;">
             <tr>
-                <td class="entitytypeimage" width="40">
-                    <a href="https://targetprocess.aemedia.ru/TargetProcess2/RestUI/Board.aspx?acid=##acid###page=##EntityType##/##entityID##"><img alt="EntityTypeImage" src="http://img.aemedia.ru/tp/##EntityType##.gif" width="##ImageWidth##" height="12"></a>
+                <td class="entitytypeimage" width="40" style="width:40px;">
+                    <a href="https://targetprocess.aemedia.ru/TargetProcess2/RestUI/Board.aspx?acid=##acid###page=##EntityType##/##entityID##"><img alt="EntityTypeImage" src="http://img.aemedia.ru/tp/##EntityType##.gif" height="12"></a>
                 </td>
                 <td class="EntityRecordName" colspan="3" style="font-weight: bold;" width="530">
                     ##EntityName##
@@ -24,6 +24,15 @@
                                 ##developerName##
                             </td>      
                             <td width="10">&nbsp;</td>                   
+                            <td width="150" class="EntityState">
+                                <table class="tblEntityState" width="150" style="border-collapse:collapse; border: 1px solid #bac3ca; border-color: #bac3ca; border-spacing: 0px; padding: 0px; text-align: center; font-size:9pt;">
+                                    <tr>
+                                        <td>
+                                            ##EntityState##
+                                        </td>
+                                    </tr>
+                                </table>                               
+                            </td>
                             <td class="Effort" width="45">
                                 <table class="tblEffort" width="45" style="border-collapse:collapse; border: 1px solid #bac3ca; border-color: #bac3ca; border-spacing: 0px; padding: 0px; text-align: center; font-size:9pt;">
                                     <tr>
