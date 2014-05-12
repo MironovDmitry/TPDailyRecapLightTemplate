@@ -8,12 +8,41 @@
                 <td class="entitytypeimage" width="40">
                     <img alt="EntityTypeImage" src="http://img.aemedia.ru/tp/##EntityType##.gif" width="##ImageWidth##" height="12">
                 </td>
-                <td class="EntityRecordName" colspan="2" style="font-weight: bold;" width="530">
+                <td class="EntityRecordName" colspan="3" style="font-weight: bold;" width="530">
                     ##EntityName##
                 </td>
             </tr>
             <tr>
                 <td width="40">&nbsp;</td>
+                <td class="EntityDeveloperAndEffort" width="475" valign="middle" style="font-size: 10pt;">
+                    <table class="entityEffort" width="473" style="border: none;border-collapse: collapse;border-spacing: 0px;padding: 0px;">
+                        <tr>  
+                            <td class="developerAvatar" width="25">
+                                <img alt="UserAvatar" src="https://targetprocess.aemedia.ru/TargetProcess2/avatar.ashx?UserId=##AssignedUserID##" width="20" height="20">
+                            </td>
+                            <td class="developerName">
+                                ##developerName##
+                            </td>      
+                            <td width="10">&nbsp;</td>                   
+                            <td class="Effort" width="45">
+                                <table class="tblEffort" width="45" style="border-collapse:collapse; border: 1px solid #bac3ca; border-color: #bac3ca; border-spacing: 0px; padding: 0px; text-align: center; font-size:9pt;">
+                                    <tr>
+                                        <td class="effortCompleted" width="15" bgcolor="#bac3ca">
+                                            ##effortCompleted##
+                                        </td>
+                                        <td class="effortRemain" width="15">
+                                            ##effortRemain##
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="padding-right: 5px;padding-left:0px; font-size: 9pt; text-align: left;" width="15">
+                                pt
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
                 <td width="52" valign="middle">
                     <table class="ProgressBar" border="1" width="50" cellpadding="0" cellspacing="0" style="border-color: #bac3ca; text-align: left; border-collapse: collapse; border-spacing: 0px; padding: 0px;" height="6">
                         <tr>
@@ -27,38 +56,9 @@
                         </tr>
                     </table>
                 </td>
-                <td class="EntityDeveloperAndEffort" width="475" valign="middle" style="font-size: 10pt;">
-                    <table class="entityEffort" width="473" style="border: none;border-collapse: collapse;border-spacing: 0px;padding: 0px;">
-                        <tr>
-                            <td class="percentComplete" width="40" style="font-size:9pt;text-align:left;">
-                                ##percentCompleted##%
-                            </td>
-                            <td class="Effort" width="45">
-                                <table class="tblEffort" width="45" style="border-collapse:collapse; border: 1px solid #bac3ca; border-color: #bac3ca; border-spacing: 0px; padding: 0px; text-align: center; font-size:9pt;">
-                                    <tr>
-                                        <td class="effortCompleted" width="15" bgcolor="#bac3ca">
-                                            ##effortCompleted##
-                                        </td>
-                                        <td class="effortRemain" width="15">
-                                            ##effortRemain##
-                                        </td>                                        
-                                    </tr>
-                                </table>
-                            </td>
-                            <td style="padding-right: 5px;padding-left:0px; font-size: 9pt; text-align: left;" width="15">
-                                pt
-                            </td>
-                            <td width="10">&nbsp;</td>
-                            <td class="developerAvatar" width="25">
-                                <img alt="UserAvatar" src="https://targetprocess.aemedia.ru/TargetProcess2/avatar.ashx?UserId=##AssignedUserID##" width="20" height="20">
-                            </td>
-                            <td class="developerName">
-                                ##developerName##
-                            </td>
-                        </tr>
-
-                    </table>
-                </td>
+                <td class="percentComplete" width="40" style="font-size:9pt;text-align:left;">
+                    ##percentCompleted##%
+                </td>                
             </tr>
             <tr>
                 <td colspan="3" height="5" style="font-size: 5px; line-height: 5px;">&nbsp;</td>
